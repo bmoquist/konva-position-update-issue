@@ -168,7 +168,7 @@ class App extends Component {
               </ol>
               <span style={spanStyleA}>Issue:</span>
               <ul>
-                <li>The objects on canvas jump by more than the amount dragged after the Redux update (try below) --- sometimes by a large amount. The jump appears to be larger when the distance moved is larger. </li>
+                <li>The objects on canvas jump and do not match the amount dragged after the Redux update (try below).</li>
                 <li>For debugging, the object positions are printed to the Console and Redux Dev tools can be used to examine state.</li>
               </ul>
               <span style={spanStyleA}>Test Stage:</span>
@@ -178,6 +178,8 @@ class App extends Component {
           <Layer>
               <Group
                 ref="itemsGroup"
+                x={0}
+                y={0}
                 onDragStart={this.handleDragStart}
                 onDragEnd={this.handleDragEnd}
                 draggable={true}
