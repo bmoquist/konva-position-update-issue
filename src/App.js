@@ -168,7 +168,7 @@ class App extends Component {
               </ol>
               <span style={spanStyleA}>Issue:</span>
               <ul>
-                <li>The objects on canvas jump by more than the amount dragged after the Redux update (try below) --- sometimes by a large amount. The jump appears to be larger when the distance moved is larger. </li>
+                <li>The objects on canvas jump by more than the amount dragged after the Redux update --- sometimes by a large amount. The jump appears to be larger when the distance moved is larger. </li>
                 <li>For debugging, the object positions are printed to the Console and Redux Dev tools can be used to examine state.</li>
               </ul>
               <span style={spanStyleA}>Test Stage:</span>
