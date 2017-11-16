@@ -14,5 +14,5 @@ Created this simple example of an issue that I'm encountering in a larger applic
 
 ## To Run
 
-* Run `yarn install` in the repository local folder and should launch to localhost:3000
+* Run `yarn install` in the repository local folder and then run `yarn start` -- should launch to localhost:3000
 * Debugging information in the console and Redux Dev Tools
