@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+Created this simple example of an issue that I'm encountering in a larger application. Not sure sure if the issue is related to the absolutePosition method in Konva or a logic error on my part -- looking for suggestions how to achieve the objective. This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 ## Konva issue
 * Objective: Move a group of objects together by dispatching Redux actions and using position information from the Redux store for rendering
@@ -13,7 +13,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   + The delta of the parent group and children between the beginning and end remains is the same amount (as expected -- so any of could be passed as deltas to Redux to update the group).</li>
 
 ## To Run
-Create React App is divided into two packages:
 
 * Run `yarn install` in the repository local folder and should launch to localhost:3000
 * Debugging information in the console and Redux Dev Tools
