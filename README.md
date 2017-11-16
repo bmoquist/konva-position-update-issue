@@ -7,7 +7,7 @@ Created this simple example of an issue that I'm encountering in a larger applic
   + Calculate the position change (delta)
   + Dispatch the calculated delta to Redux and adjust all of the positions of the objects by the delta in the reducer
 * Issue:
-  + The objects on canvas jump by more than the amount dragged after the Redux update (try below) --- sometimes by a large amount. The jump appears to be larger when the distance moved is larger. </li>
+  + The objects on canvas jump by more than the amount dragged after the Redux update --- sometimes by a large amount. The jump appears to be larger when the distance moved is larger. </li>
   + For debugging, the object positions are printed to the Console and Redux Dev tools can be used to examine state.
 
 ## To Run
