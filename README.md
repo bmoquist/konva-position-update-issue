@@ -9,8 +9,6 @@ Created this simple example of an issue that I'm encountering in a larger applic
 * Issue:
   + The objects on canvas jump by more than the amount dragged after the Redux update (try below) --- sometimes by a large amount. The jump appears to be larger when the distance moved is larger. </li>
   + For debugging, the object positions are printed to the Console and Redux Dev tools can be used to examine state.
-  + Strangely, if the absolute start positions of the children recorded in console on the first drag are compared to the default initial positions as specified in the reducer index file, they do not match. I would expect these to match given that the method is for the absolute position vs relative to group that the children are in.
-  + The delta of the parent group and children between the beginning and end remains is the same amount (as expected -- so any of could be passed as deltas to Redux to update the group).</li>
 
 ## To Run
 
