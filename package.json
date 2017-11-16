@@ -1,0 +1,23 @@
+{
+  "name": "konva-position-update-issue",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "konva": "^1.7.6",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-konva": "^1.6.2",
+    "react-scripts": "1.0.17",
+    "redux": "^3.7.2",
+    "react-redux": "^5.0.6"
+  },
+  "devDependencies": {
+    "redux-devtools": "^3.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
